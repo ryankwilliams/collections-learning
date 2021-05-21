@@ -1,0 +1,9 @@
+---
+- name: Playbook within a collection
+  hosts: localhost
+
+  tasks:
+    - name: Log message
+      debug:
+        msg: "Hello from within a collection!"
+
